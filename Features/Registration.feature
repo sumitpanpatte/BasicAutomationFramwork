@@ -1,17 +1,7 @@
 Feature: Registration
 
-Scenario Outline: TC001-Negative_Verify Registration not allowed Due to legal reasons in some countries.
-    
-    Given user clicks on registration
-    When User selects "<countries>" from country drop down
-    Then Error message shoud be thrown
-   
-    
-    Examples: 
-      | countries  | 
-      | Algeria |
 
-  Scenario Outline: TC002-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "do not set limit" option selected. 
+Scenario Outline: TC001-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "do not set limit" option selected. 
     
     Given user clicks on registration
     When User enters "<email>" and "<username>" and "<password>"
@@ -24,8 +14,7 @@ Scenario Outline: TC001-Negative_Verify Registration not allowed Due to legal re
    |  email    | |username    ||password    |
    |sumit.panpatte@gmail.com| |cdjrmk14    ||Abc@1238    |
    
-   
-   Scenario Outline: TC003-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "set limit" option selected.
+Scenario Outline: TC002-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "set limit" option selected.
 
     Given user clicks on registration
     When User enters "<email>" and "<username>" and "<password>"
@@ -41,6 +30,19 @@ Scenario Outline: TC001-Negative_Verify Registration not allowed Due to legal re
    |sumit.panpatte@gmail.com| |cdjrmk14    ||Abc@1238    | |Stakes |
 
 
+
+Scenario Outline: TC003-Negative_Verify Registration not allowed Due to legal reasons in some countries.
+    
+    Given user clicks on registration
+    When User selects "<countries>" from country drop down
+    Then Error message shoud be thrown
+   
+    
+    Examples: 
+      | countries  | 
+      | Algeria |
+
+  
 Scenario Outline: TC004-Verify User not allowed to navigate without agreeing to terms and condition. 
     
     Given user clicks on registration
