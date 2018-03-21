@@ -1,0 +1,440 @@
+[
+  {
+    "source": "^user click continue$",
+    "steps": [
+      {
+        "name": "user click continue",
+        "aggregatedDurations": {
+          "average": 0.453673457,
+          "median": 0.428247582
+        },
+        "durations": [
+          {
+            "duration": 0.577442017,
+            "location": "Registration.feature:20"
+          },
+          {
+            "duration": 0.41021832,
+            "location": "Registration.feature:34"
+          },
+          {
+            "duration": 0.645783107,
+            "location": "Registration.feature:34"
+          },
+          {
+            "duration": 0.695691679,
+            "location": "Registration.feature:34"
+          },
+          {
+            "duration": 0.446276844,
+            "location": "Registration.feature:58"
+          },
+          {
+            "duration": 0.294765244,
+            "location": "Registration.feature:58"
+          },
+          {
+            "duration": 0.285753179,
+            "location": "Registration.feature:58"
+          },
+          {
+            "duration": 0.273457272,
+            "location": "Registration.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is still on Account details section$",
+    "steps": [
+      {
+        "name": "User is still on Account details section",
+        "aggregatedDurations": {
+          "average": 0.079264093,
+          "median": 0.052673828
+        },
+        "durations": [
+          {
+            "duration": 0.172208612,
+            "location": "Registration.feature:59"
+          },
+          {
+            "duration": 0.056274764,
+            "location": "Registration.feature:59"
+          },
+          {
+            "duration": 0.049072892,
+            "location": "Registration.feature:59"
+          },
+          {
+            "duration": 0.039500104,
+            "location": "Registration.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enters \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enters \"sumit.panpatte@gmail.com\" and \"cdjrmk14\" and \"Abc@1238\"",
+        "aggregatedDurations": {
+          "average": 5.238686706,
+          "median": 5.060451279
+        },
+        "durations": [
+          {
+            "duration": 4.755654892,
+            "location": "Registration.feature:17"
+          },
+          {
+            "duration": 5.365247666,
+            "location": "Registration.feature:31"
+          },
+          {
+            "duration": 6.575349843,
+            "location": "Registration.feature:31"
+          },
+          {
+            "duration": 4.258494424,
+            "location": "Registration.feature:31"
+          }
+        ]
+      },
+      {
+        "name": "User enters \"sumit.panpatte\" and \"cdjrmk14\" and \"Abc@1238\"",
+        "aggregatedDurations": {
+          "average": 5.840761998,
+          "median": 5.840761998
+        },
+        "durations": [
+          {
+            "duration": 5.840761998,
+            "location": "Registration.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "User enters \"sumit.panpatte@gmail.com\" and \"cdj\" and \"Abc@1238\"",
+        "aggregatedDurations": {
+          "average": 5.275501909,
+          "median": 5.275501909
+        },
+        "durations": [
+          {
+            "duration": 5.275501909,
+            "location": "Registration.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "User enters \"sumit.panpatte@gmail.com\" and \"cdjeks\" and \"Abc@1\"",
+        "aggregatedDurations": {
+          "average": 5.477548165,
+          "median": 5.477548165
+        },
+        "durations": [
+          {
+            "duration": 5.477548165,
+            "location": "Registration.feature:55"
+          }
+        ]
+      },
+      {
+        "name": "User enters \"sumit.panpatte@gmail.com\" and \"abcdef\" and \"Abc@1238\"",
+        "aggregatedDurations": {
+          "average": 5.640555644,
+          "median": 5.640555644
+        },
+        "durations": [
+          {
+            "duration": 5.640555644,
+            "location": "Registration.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on registration$",
+    "steps": [
+      {
+        "name": "user clicks on registration",
+        "aggregatedDurations": {
+          "average": 2.134229371,
+          "median": 1.247772102
+        },
+        "durations": [
+          {
+            "duration": 9.931767489,
+            "location": "Registration.feature:5"
+          },
+          {
+            "duration": 1.830151497,
+            "location": "Registration.feature:16"
+          },
+          {
+            "duration": 2.610603478,
+            "location": "Registration.feature:30"
+          },
+          {
+            "duration": 0.479582538,
+            "location": "Registration.feature:30"
+          },
+          {
+            "duration": 2.05112401,
+            "location": "Registration.feature:30"
+          },
+          {
+            "duration": 0.543641505,
+            "location": "Registration.feature:54"
+          },
+          {
+            "duration": 0.921337413,
+            "location": "Registration.feature:54"
+          },
+          {
+            "duration": 0.74834768,
+            "location": "Registration.feature:54"
+          },
+          {
+            "duration": 1.574206791,
+            "location": "Registration.feature:70"
+          },
+          {
+            "duration": 0.651531316,
+            "location": "Registration.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User able to navigate to Personal details section$",
+    "steps": [
+      {
+        "name": "User able to navigate to Personal details section",
+        "aggregatedDurations": {
+          "average": 0.806475987,
+          "median": 0.722630099
+        },
+        "durations": [
+          {
+            "duration": 0.710936509,
+            "location": "Registration.feature:21"
+          },
+          {
+            "duration": 1.148357404,
+            "location": "Registration.feature:35"
+          },
+          {
+            "duration": 0.632286347,
+            "location": "Registration.feature:35"
+          },
+          {
+            "duration": 0.73432369,
+            "location": "Registration.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User selects Do not set limit$",
+    "steps": [
+      {
+        "name": "User selects Do not set limit",
+        "aggregatedDurations": {
+          "average": 0.473742386,
+          "median": 0.444826962
+        },
+        "durations": [
+          {
+            "duration": 0.501729973,
+            "location": "Registration.feature:18"
+          },
+          {
+            "duration": 0.444826962,
+            "location": "Registration.feature:56"
+          },
+          {
+            "duration": 0.553405522,
+            "location": "Registration.feature:56"
+          },
+          {
+            "duration": 0.426648336,
+            "location": "Registration.feature:56"
+          },
+          {
+            "duration": 0.44210114,
+            "location": "Registration.feature:72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User selects \"([^\"]*)\" from country drop down$",
+    "steps": [
+      {
+        "name": "User selects \"Algeria\" from country drop down",
+        "aggregatedDurations": {
+          "average": 17.515168932,
+          "median": 17.515168932
+        },
+        "durations": [
+          {
+            "duration": 17.515168932,
+            "location": "Registration.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User selects set a limit with \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User selects set a limit with \"Deposit\"",
+        "aggregatedDurations": {
+          "average": 1.582692708,
+          "median": 1.582692708
+        },
+        "durations": [
+          {
+            "duration": 1.582692708,
+            "location": "Registration.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "User selects set a limit with \"Loss\"",
+        "aggregatedDurations": {
+          "average": 1.592866731,
+          "median": 1.592866731
+        },
+        "durations": [
+          {
+            "duration": 1.592866731,
+            "location": "Registration.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "User selects set a limit with \"Stakes\"",
+        "aggregatedDurations": {
+          "average": 1.675229651,
+          "median": 1.675229651
+        },
+        "durations": [
+          {
+            "duration": 1.675229651,
+            "location": "Registration.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User clicks on terms and condition link$",
+    "steps": [
+      {
+        "name": "User clicks on terms and condition link",
+        "aggregatedDurations": {
+          "average": 3.353595129,
+          "median": 3.353595129
+        },
+        "durations": [
+          {
+            "duration": 3.353595129,
+            "location": "Registration.feature:84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Terms and condition link should open$",
+    "steps": [
+      {
+        "name": "Terms and condition link should open",
+        "aggregatedDurations": {
+          "average": 0.012472551,
+          "median": 0.012472551
+        },
+        "durations": [
+          {
+            "duration": 0.012472551,
+            "location": "Registration.feature:85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Error message shoud be thrown$",
+    "steps": [
+      {
+        "name": "Error message shoud be thrown",
+        "aggregatedDurations": {
+          "average": 0.199476012,
+          "median": 0.199476012
+        },
+        "durations": [
+          {
+            "duration": 0.199476012,
+            "location": "Registration.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Agree to terms and conditions$",
+    "steps": [
+      {
+        "name": "User Agree to terms and conditions",
+        "aggregatedDurations": {
+          "average": 0.39378209,
+          "median": 0.346187712
+        },
+        "durations": [
+          {
+            "duration": 0.506283272,
+            "location": "Registration.feature:19"
+          },
+          {
+            "duration": 0.321814405,
+            "location": "Registration.feature:33"
+          },
+          {
+            "duration": 0.330499112,
+            "location": "Registration.feature:33"
+          },
+          {
+            "duration": 0.561130843,
+            "location": "Registration.feature:33"
+          },
+          {
+            "duration": 0.325421825,
+            "location": "Registration.feature:57"
+          },
+          {
+            "duration": 0.412731845,
+            "location": "Registration.feature:57"
+          },
+          {
+            "duration": 0.36100984,
+            "location": "Registration.feature:57"
+          },
+          {
+            "duration": 0.331365585,
+            "location": "Registration.feature:73"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+Feature: Registration
+
+  Scenario Outline: TC001-Negative_Verify Registration not allowed Due to legal reasons in some countries. [90m# Registration.feature:3[0m
+    [36mGiven [0m[36muser clicks on registration[0m
+    [36mWhen [0m[36mUser selects "<countries>" from country drop down[0m
+    [36mThen [0m[36mError message shoud be thrown[0m
+
+    Examples: 
+
+  Scenario Outline: TC001-Negative_Verify Registration not allowed Due to legal reasons in some countries. [90m# Registration.feature:12[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                      [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser selects "[0m[32m[1mAlgeria[0m[32m" from country drop down[0m                                                     [90m# Registration.user_selects_from_country_drop_down(String)[0m
+    [32mThen [0m[32mError message shoud be thrown[0m                                                                     [90m# Registration.error_message_shoud_be_thrown()[0m
+
+  Scenario Outline: TC002-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "do not set limit" option selected. [90m# Registration.feature:14[0m
+    [36mGiven [0m[36muser clicks on registration[0m
+    [36mWhen [0m[36mUser enters "<email>" and "<username>" and "<password>"[0m
+    [36mAnd [0m[36mUser selects Do not set limit[0m
+    [36mAnd [0m[36mUser Agree to terms and conditions[0m
+    [36mAnd [0m[36muser click continue[0m
+    [36mThen [0m[36mUser able to navigate to Personal details section[0m
+
+    Examples: 
+
+  Scenario Outline: TC002-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "do not set limit" option selected. [90m# Registration.feature:25[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                                                                                                          [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser enters "[0m[32m[1msumit.panpatte@gmail.com[0m[32m" and "[0m[32m[1mcdjrmk14[0m[32m" and "[0m[32m[1mAbc@1238[0m[32m"[0m                                                                                                                  [90m# Registration.user_enters_and_and(String,String,String)[0m
+    [32mAnd [0m[32mUser selects Do not set limit[0m                                                                                                                                                          [90m# Registration.user_selects_Do_not_set_limit()[0m
+    [32mAnd [0m[32mUser Agree to terms and conditions[0m                                                                                                                                                     [90m# Registration.user_Agree_to_terms_and_conditions()[0m
+    [32mAnd [0m[32muser click continue[0m                                                                                                                                                                    [90m# Registration.user_click_continue()[0m
+    [32mThen [0m[32mUser able to navigate to Personal details section[0m                                                                                                                                     [90m# Registration.user_able_to_navigate_to_Personal_details_section()[0m
+
+  Scenario Outline: TC003-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "set limit" option selected. [90m# Registration.feature:28[0m
+    [36mGiven [0m[36muser clicks on registration[0m
+    [36mWhen [0m[36mUser enters "<email>" and "<username>" and "<password>"[0m
+    [36mAnd [0m[36mUser selects set a limit with "<Type>"[0m
+    [36mAnd [0m[36mUser Agree to terms and conditions[0m
+    [36mAnd [0m[36muser click continue[0m
+    [36mThen [0m[36mUser able to navigate to Personal details section[0m
+
+    Examples: 
+
+  Scenario Outline: TC003-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "set limit" option selected. [90m# Registration.feature:39[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                                                                                                   [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser enters "[0m[32m[1msumit.panpatte@gmail.com[0m[32m" and "[0m[32m[1mcdjrmk14[0m[32m" and "[0m[32m[1mAbc@1238[0m[32m"[0m                                                                                                           [90m# Registration.user_enters_and_and(String,String,String)[0m
+    [32mAnd [0m[32mUser selects set a limit with "[0m[32m[1mDeposit[0m[32m"[0m                                                                                                                                         [90m# Registration.user_selects_set_a_limit_with(String)[0m
+    [32mAnd [0m[32mUser Agree to terms and conditions[0m                                                                                                                                              [90m# Registration.user_Agree_to_terms_and_conditions()[0m
+    [32mAnd [0m[32muser click continue[0m                                                                                                                                                             [90m# Registration.user_click_continue()[0m
+    [32mThen [0m[32mUser able to navigate to Personal details section[0m                                                                                                                              [90m# Registration.user_able_to_navigate_to_Personal_details_section()[0m
+
+  Scenario Outline: TC003-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "set limit" option selected. [90m# Registration.feature:40[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                                                                                                   [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser enters "[0m[32m[1msumit.panpatte@gmail.com[0m[32m" and "[0m[32m[1mcdjrmk14[0m[32m" and "[0m[32m[1mAbc@1238[0m[32m"[0m                                                                                                           [90m# Registration.user_enters_and_and(String,String,String)[0m
+    [32mAnd [0m[32mUser selects set a limit with "[0m[32m[1mLoss[0m[32m"[0m                                                                                                                                            [90m# Registration.user_selects_set_a_limit_with(String)[0m
+    [32mAnd [0m[32mUser Agree to terms and conditions[0m                                                                                                                                              [90m# Registration.user_Agree_to_terms_and_conditions()[0m
+    [32mAnd [0m[32muser click continue[0m                                                                                                                                                             [90m# Registration.user_click_continue()[0m
+    [32mThen [0m[32mUser able to navigate to Personal details section[0m                                                                                                                              [90m# Registration.user_able_to_navigate_to_Personal_details_section()[0m
+
+  Scenario Outline: TC003-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and "set limit" option selected. [90m# Registration.feature:41[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                                                                                                   [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser enters "[0m[32m[1msumit.panpatte@gmail.com[0m[32m" and "[0m[32m[1mcdjrmk14[0m[32m" and "[0m[32m[1mAbc@1238[0m[32m"[0m                                                                                                           [90m# Registration.user_enters_and_and(String,String,String)[0m
+    [32mAnd [0m[32mUser selects set a limit with "[0m[32m[1mStakes[0m[32m"[0m                                                                                                                                          [90m# Registration.user_selects_set_a_limit_with(String)[0m
+    [32mAnd [0m[32mUser Agree to terms and conditions[0m                                                                                                                                              [90m# Registration.user_Agree_to_terms_and_conditions()[0m
+    [32mAnd [0m[32muser click continue[0m                                                                                                                                                             [90m# Registration.user_click_continue()[0m
+    [32mThen [0m[32mUser able to navigate to Personal details section[0m                                                                                                                              [90m# Registration.user_able_to_navigate_to_Personal_details_section()[0m
+
+  Scenario Outline: TC004-Verify User not allowed to navigate without agreeing to terms and condition. [90m# Registration.feature:44[0m
+    [36mGiven [0m[36muser clicks on registration[0m
+    [36mWhen [0m[36mUser enters "<email>" and "<username>" and "<password>"[0m
+    [36mAnd [0m[36mUser selects Do not set limit[0m
+    [36mAnd [0m[36muser click continue[0m
+    [36mThen [0m[36mUser is still on Account details section[0m
+
+  Scenario Outline: TC005-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password. [90m# Registration.feature:52[0m
+    [36mGiven [0m[36muser clicks on registration[0m
+    [36mWhen [0m[36mUser enters "<invalidEmail>" and "<invalidUsername>" and "<InvalidPassword>"[0m
+    [36mAnd [0m[36mUser selects Do not set limit[0m
+    [36mAnd [0m[36mUser Agree to terms and conditions[0m
+    [36mAnd [0m[36muser click continue[0m
+    [36mThen [0m[36mUser is still on Account details section[0m
+
+    Examples: 
+
+  Scenario Outline: TC005-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password. [90m# Registration.feature:63[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                                                                         [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser enters "[0m[32m[1msumit.panpatte[0m[32m" and "[0m[32m[1mcdjrmk14[0m[32m" and "[0m[32m[1mAbc@1238[0m[32m"[0m                                                                                           [90m# Registration.user_enters_and_and(String,String,String)[0m
+    [32mAnd [0m[32mUser selects Do not set limit[0m                                                                                                                         [90m# Registration.user_selects_Do_not_set_limit()[0m
+    [32mAnd [0m[32mUser Agree to terms and conditions[0m                                                                                                                    [90m# Registration.user_Agree_to_terms_and_conditions()[0m
+    [32mAnd [0m[32muser click continue[0m                                                                                                                                   [90m# Registration.user_click_continue()[0m
+    [32mThen [0m[32mUser is still on Account details section[0m                                                                                                             [90m# Registration.user_is_still_on_Account_details_section()[0m
+
+  Scenario Outline: TC005-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password. [90m# Registration.feature:64[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                                                                         [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser enters "[0m[32m[1msumit.panpatte@gmail.com[0m[32m" and "[0m[32m[1mcdj[0m[32m" and "[0m[32m[1mAbc@1238[0m[32m"[0m                                                                                      [90m# Registration.user_enters_and_and(String,String,String)[0m
+    [32mAnd [0m[32mUser selects Do not set limit[0m                                                                                                                         [90m# Registration.user_selects_Do_not_set_limit()[0m
+    [32mAnd [0m[32mUser Agree to terms and conditions[0m                                                                                                                    [90m# Registration.user_Agree_to_terms_and_conditions()[0m
+    [32mAnd [0m[32muser click continue[0m                                                                                                                                   [90m# Registration.user_click_continue()[0m
+    [32mThen [0m[32mUser is still on Account details section[0m                                                                                                             [90m# Registration.user_is_still_on_Account_details_section()[0m
+
+  Scenario Outline: TC005-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password. [90m# Registration.feature:65[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                                                                         [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser enters "[0m[32m[1msumit.panpatte@gmail.com[0m[32m" and "[0m[32m[1mcdjeks[0m[32m" and "[0m[32m[1mAbc@1[0m[32m"[0m                                                                                      [90m# Registration.user_enters_and_and(String,String,String)[0m
+    [32mAnd [0m[32mUser selects Do not set limit[0m                                                                                                                         [90m# Registration.user_selects_Do_not_set_limit()[0m
+    [32mAnd [0m[32mUser Agree to terms and conditions[0m                                                                                                                    [90m# Registration.user_Agree_to_terms_and_conditions()[0m
+    [32mAnd [0m[32muser click continue[0m                                                                                                                                   [90m# Registration.user_click_continue()[0m
+    [32mThen [0m[32mUser is still on Account details section[0m                                                                                                             [90m# Registration.user_is_still_on_Account_details_section()[0m
+
+  Scenario Outline: TC006-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password. [90m# Registration.feature:68[0m
+    [36mGiven [0m[36muser clicks on registration[0m
+    [36mWhen [0m[36mUser enters "<Email>" and "<ExistingUsername>" and "<Password>"[0m
+    [36mAnd [0m[36mUser selects Do not set limit[0m
+    [36mAnd [0m[36mUser Agree to terms and conditions[0m
+    [36mAnd [0m[36muser click continue[0m
+    [36mThen [0m[36mUser is still on Account details section[0m
+
+    Examples: 
+
+  Scenario Outline: TC006-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password. [90m# Registration.feature:79[0m
+    [32mGiven [0m[32muser clicks on registration[0m                                                                                                                         [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser enters "[0m[32m[1msumit.panpatte@gmail.com[0m[32m" and "[0m[32m[1mabcdef[0m[32m" and "[0m[32m[1mAbc@1238[0m[32m"[0m                                                                                   [90m# Registration.user_enters_and_and(String,String,String)[0m
+    [32mAnd [0m[32mUser selects Do not set limit[0m                                                                                                                         [90m# Registration.user_selects_Do_not_set_limit()[0m
+    [32mAnd [0m[32mUser Agree to terms and conditions[0m                                                                                                                    [90m# Registration.user_Agree_to_terms_and_conditions()[0m
+    [32mAnd [0m[32muser click continue[0m                                                                                                                                   [90m# Registration.user_click_continue()[0m
+    [32mThen [0m[32mUser is still on Account details section[0m                                                                                                             [90m# Registration.user_is_still_on_Account_details_section()[0m
+
+  Scenario: TC007-Verify terms and condition link is working. [90m# Registration.feature:81[0m
+    [32mGiven [0m[32muser clicks on registration[0m                         [90m# Registration.user_clicks_on_registration()[0m
+    [32mWhen [0m[32mUser clicks on terms and condition link[0m              [90m# Registration.user_clicks_on_terms_and_condition_link()[0m
+    [32mThen [0m[32mTerms and condition link should open[0m                 [90m# Registration.terms_and_condition_link_should_open()[0m

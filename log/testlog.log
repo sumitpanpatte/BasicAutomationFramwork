@@ -1,0 +1,172 @@
+2018-03-18 11:19:41,008 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:19:44,027 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:20:00,317 - stepdefination.Registration -INFO - On Account details section of Registration page : selected country form drop isAlgeria
+2018-03-18 11:20:00,367 - stepdefination.Registration -INFO - Verificarion point: Error mesg is diapled for countries for which registration is not allowed
+2018-03-18 11:20:16,168 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:20:19,378 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:20:20,423 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-18 11:20:21,356 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-18 11:20:21,821 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-18 11:20:22,197 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-18 11:20:22,987 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-18 11:20:23,594 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-18 11:20:24,029 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-18 11:20:24,743 - stepdefination.Registration -INFO - Verificarion point: From account details section, User able to navigate to personal details section
+2018-03-18 11:20:41,505 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:20:44,556 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:20:47,204 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-18 11:20:48,270 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-18 11:20:48,669 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-18 11:20:49,226 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-18 11:20:49,915 - stepdefination.Registration -INFO - On Account details section of Registration page: set a limit radio button selected
+2018-03-18 11:20:51,565 - stepdefination.Registration -INFO - On Account details section of Registration page: under set a limit : amount , period and Type is select as 1000, 24 HoursDeposit
+2018-03-18 11:20:51,925 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-18 11:20:52,549 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-18 11:20:52,712 - stepdefination.Registration -INFO - Verificarion point: From account details section, User able to navigate to personal details section
+2018-03-18 11:21:12,106 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:21:14,443 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:21:15,487 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-18 11:21:17,715 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-18 11:21:18,295 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-18 11:21:18,951 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-18 11:21:19,411 - stepdefination.Registration -INFO - On Account details section of Registration page: set a limit radio button selected
+2018-03-18 11:21:21,514 - stepdefination.Registration -INFO - On Account details section of Registration page: under set a limit : amount , period and Type is select as 1000, 24 HoursLoss
+2018-03-18 11:21:22,340 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-18 11:21:22,897 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-18 11:21:23,374 - stepdefination.Registration -INFO - Verificarion point: From account details section, User able to navigate to personal details section
+2018-03-18 11:21:40,348 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:21:44,164 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:21:46,582 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-18 11:21:48,260 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-18 11:21:48,657 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-18 11:21:49,153 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-18 11:21:49,564 - stepdefination.Registration -INFO - On Account details section of Registration page: set a limit radio button selected
+2018-03-18 11:21:52,285 - stepdefination.Registration -INFO - On Account details section of Registration page: under set a limit : amount , period and Type is select as 1000, 24 HoursStakes
+2018-03-18 11:21:52,606 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-18 11:21:52,975 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-18 11:21:53,298 - stepdefination.Registration -INFO - Verificarion point: From account details section, User able to navigate to personal details section
+2018-03-18 11:22:14,062 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:22:14,915 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:22:16,825 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte
+2018-03-18 11:22:17,539 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-18 11:22:18,694 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-18 11:22:18,984 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-18 11:22:19,915 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-18 11:22:20,431 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-18 11:22:21,667 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-18 11:22:22,439 - stepdefination.Registration -INFO - Verificarion point: User not able to proceed further and still in account details section due to some manadatory input missing
+2018-03-18 11:22:43,840 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:22:46,188 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:22:48,745 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-18 11:22:49,251 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdj
+2018-03-18 11:22:49,684 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-18 11:22:50,059 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-18 11:22:50,433 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-18 11:22:50,813 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-18 11:22:51,931 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-18 11:22:52,043 - stepdefination.Registration -INFO - Verificarion point: User not able to proceed further and still in account details section due to some manadatory input missing
+2018-03-18 11:23:09,203 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:23:14,321 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:23:15,207 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-18 11:23:15,509 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjeks
+2018-03-18 11:23:15,809 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1
+2018-03-18 11:23:16,059 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1
+2018-03-18 11:23:16,404 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-18 11:23:16,735 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-18 11:23:19,333 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-18 11:23:19,409 - stepdefination.Registration -INFO - Verificarion point: User not able to proceed further and still in account details section due to some manadatory input missing
+2018-03-18 11:23:41,023 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-18 11:23:41,695 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-18 11:23:45,291 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on TermsAndCondition link
+2018-03-18 11:23:46,667 - stepdefination.Registration -INFO - Verificarion point: New window opened
+2018-03-20 19:47:30,808 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:47:39,908 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:47:57,429 - stepdefination.Registration -INFO - On Account details section of Registration page : selected country form drop isAlgeria
+2018-03-20 19:47:57,630 - stepdefination.Registration -INFO - Verificarion point: Error mesg is diapled for countries for which registration is not allowed
+2018-03-20 19:48:23,984 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:48:25,813 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:48:26,900 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-20 19:48:29,481 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-20 19:48:29,950 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-20 19:48:30,572 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-20 19:48:31,078 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-20 19:48:31,586 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-20 19:48:32,164 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-20 19:48:32,876 - stepdefination.Registration -INFO - Verificarion point: From account details section, User able to navigate to personal details section
+2018-03-20 19:48:48,458 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:48:51,066 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:48:54,588 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-20 19:48:55,542 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-20 19:48:56,007 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-20 19:48:56,435 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-20 19:48:56,897 - stepdefination.Registration -INFO - On Account details section of Registration page: set a limit radio button selected
+2018-03-20 19:48:58,019 - stepdefination.Registration -INFO - On Account details section of Registration page: under set a limit : amount , period and Type is select as 1000, 24 HoursDeposit
+2018-03-20 19:48:58,342 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-20 19:48:58,754 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-20 19:48:59,903 - stepdefination.Registration -INFO - Verificarion point: From account details section, User able to navigate to personal details section
+2018-03-20 19:49:20,064 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:49:20,542 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:49:24,327 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-20 19:49:26,351 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-20 19:49:26,759 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-20 19:49:27,120 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-20 19:49:27,585 - stepdefination.Registration -INFO - On Account details section of Registration page: set a limit radio button selected
+2018-03-20 19:49:28,716 - stepdefination.Registration -INFO - On Account details section of Registration page: under set a limit : amount , period and Type is select as 1000, 24 HoursLoss
+2018-03-20 19:49:29,047 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-20 19:49:29,695 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-20 19:49:30,331 - stepdefination.Registration -INFO - Verificarion point: From account details section, User able to navigate to personal details section
+2018-03-20 19:49:49,300 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:49:51,351 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:49:53,275 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-20 19:49:54,548 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-20 19:49:55,184 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-20 19:49:55,611 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-20 19:49:56,061 - stepdefination.Registration -INFO - On Account details section of Registration page: set a limit radio button selected
+2018-03-20 19:49:57,290 - stepdefination.Registration -INFO - On Account details section of Registration page: under set a limit : amount , period and Type is select as 1000, 24 HoursStakes
+2018-03-20 19:49:57,853 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-20 19:49:58,549 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-20 19:49:59,287 - stepdefination.Registration -INFO - Verificarion point: From account details section, User able to navigate to personal details section
+2018-03-20 19:50:18,269 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:50:18,812 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:50:20,922 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte
+2018-03-20 19:50:22,694 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjrmk14
+2018-03-20 19:50:23,374 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-20 19:50:24,655 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-20 19:50:25,100 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-20 19:50:25,428 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-20 19:50:25,875 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-20 19:50:26,049 - stepdefination.Registration -INFO - Verificarion point: User not able to proceed further and still in account details section due to some manadatory input missing
+2018-03-20 19:50:48,055 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:50:48,975 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:50:51,327 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-20 19:50:52,970 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdj
+2018-03-20 19:50:53,459 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-20 19:50:54,249 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-20 19:50:54,808 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-20 19:50:55,221 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-20 19:50:55,518 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-20 19:50:55,575 - stepdefination.Registration -INFO - Verificarion point: User not able to proceed further and still in account details section due to some manadatory input missing
+2018-03-20 19:51:16,883 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:51:17,631 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:51:21,508 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-20 19:51:22,364 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username iscdjeks
+2018-03-20 19:51:22,685 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1
+2018-03-20 19:51:23,110 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1
+2018-03-20 19:51:23,537 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-20 19:51:23,900 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-20 19:51:24,187 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-20 19:51:24,237 - stepdefination.Registration -INFO - Verificarion point: User not able to proceed further and still in account details section due to some manadatory input missing
+2018-03-20 19:51:45,125 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:51:46,698 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:51:49,515 - stepdefination.Registration -INFO - On Account details section of Registration page: entered email issumit.panpatte@gmail.com
+2018-03-20 19:51:51,416 - stepdefination.Registration -INFO - On Account details section of Registration page: entered username isabcdef
+2018-03-20 19:51:51,842 - stepdefination.Registration -INFO - On Account details section of Registration page: entered password isAbc@1238
+2018-03-20 19:51:52,345 - stepdefination.Registration -INFO - On Account details section of Registration page: entered confirmed password isAbc@1238
+2018-03-20 19:51:52,789 - stepdefination.Registration -INFO - On Account details section of Registration page: Do not set limit radio button selected
+2018-03-20 19:51:53,121 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on I agree to terms and condition
+2018-03-20 19:51:53,396 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on continue button
+2018-03-20 19:51:53,436 - stepdefination.Registration -INFO - Verificarion point: User not able to proceed further and still in account details section due to some manadatory input missing
+2018-03-20 19:52:14,825 - pagelibraray.HomePage -INFO - ********On Home page***********
+2018-03-20 19:52:15,475 - stepdefination.Registration -INFO - On Home page: Clicked on Registration link
+2018-03-20 19:52:18,832 - stepdefination.Registration -INFO - On Account details section of Registration page: clicked on TermsAndCondition link
+2018-03-20 19:52:18,845 - stepdefination.Registration -INFO - Verificarion point: New window opened

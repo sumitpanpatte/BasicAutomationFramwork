@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="345.777543">
+<testcase classname="Registration" name="TC001-Negative_Verify Registration not allowed Due to legal reasons in some countries." time="87.286768">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User selects "Algeria" from country drop down..........................passed
+Then Error message shoud be thrown..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC002-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and &quot;do not set limit&quot; option selected." time="32.113531">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User enters "sumit.panpatte@gmail.com" and "cdjrmk14" and "Abc@1238"...passed
+And User selects Do not set limit...........................................passed
+And User Agree to terms and conditions......................................passed
+And user click continue.....................................................passed
+Then User able to navigate to Personal details section......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC003-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and &quot;set limit&quot; option selected." time="28.070619">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User enters "sumit.panpatte@gmail.com" and "cdjrmk14" and "Abc@1238"...passed
+And User selects set a limit with "Deposit".................................passed
+And User Agree to terms and conditions......................................passed
+And user click continue.....................................................passed
+Then User able to navigate to Personal details section......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC003-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and &quot;set limit&quot; option selected. 2" time="29.421819">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User enters "sumit.panpatte@gmail.com" and "cdjrmk14" and "Abc@1238"...passed
+And User selects set a limit with "Loss"....................................passed
+And User Agree to terms and conditions......................................passed
+And user click continue.....................................................passed
+Then User able to navigate to Personal details section......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC003-Verify User able to navigate from Account details section to Personal details section when all mandatory inputs are provided and &quot;set limit&quot; option selected. 3" time="28.868146">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User enters "sumit.panpatte@gmail.com" and "cdjrmk14" and "Abc@1238"...passed
+And User selects set a limit with "Stakes"..................................passed
+And User Agree to terms and conditions......................................passed
+And user click continue.....................................................passed
+Then User able to navigate to Personal details section......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC005-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password." time="26.8724">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User enters "sumit.panpatte" and "cdjrmk14" and "Abc@1238".............passed
+And User selects Do not set limit...........................................passed
+And User Agree to terms and conditions......................................passed
+And user click continue.....................................................passed
+Then User is still on Account details section...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC005-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password. 2" time="29.35688">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User enters "sumit.panpatte@gmail.com" and "cdj" and "Abc@1238"........passed
+And User selects Do not set limit...........................................passed
+And User Agree to terms and conditions......................................passed
+And user click continue.....................................................passed
+Then User is still on Account details section...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC005-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password. 3" time="28.750519">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User enters "sumit.panpatte@gmail.com" and "cdjeks" and "Abc@1"........passed
+And User selects Do not set limit...........................................passed
+And User Agree to terms and conditions......................................passed
+And user click continue.....................................................passed
+Then User is still on Account details section...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC006-Verify User is not allowed to navigate further in application with either of invalid emailid, invalid username or invalid password." time="29.369236">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User enters "sumit.panpatte@gmail.com" and "abcdef" and "Abc@1238".....passed
+And User selects Do not set limit...........................................passed
+And User Agree to terms and conditions......................................passed
+And user click continue.....................................................passed
+Then User is still on Account details section...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration" name="TC007-Verify terms and condition link is working." time="25.667625">
+<system-out><![CDATA[Given user clicks on registration...........................................passed
+When User clicks on terms and condition link................................passed
+Then Terms and condition link should open...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
