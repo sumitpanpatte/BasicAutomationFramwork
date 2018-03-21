@@ -8,9 +8,9 @@ Instruction on how to run:
 
 
 Below are test cases which should be added to have better covrage for account details page:
-1) Verification of tooltip informative message on all fields.
+1) Verify existing user id or emaild should not be allowd.
 2) Verification of Error message on all fields.
-3) Verify existing user id or emaild should not be allowd.
+3) Verification of tooltip informative message on all fields.
 4) Verify Currency drop down default value is in sync with Country drop down default value.
 example: if country is sweden then currency shoulg get changed to Swedish krone.
 5) Verify Currency selected from drop and the currency attached with amount input box should be same. 
